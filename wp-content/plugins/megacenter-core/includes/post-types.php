@@ -137,7 +137,20 @@ add_action( 'init', 'megacenter_register_post_types' );
  * @param WP_Query $query Query.
  */
 function megacenter_activity_archive_query( $query ) {
-	if ( is_admin() || ! $query->is_main_query() ) {
+	if ( ! $query->is_main_query() ) {
+		return;
+	}
+	if ( is_admin() ) {
+		// Beheerlijst: zelfde volgorde als op de site, tenzij de gebruiker zelf op een kolom sorteert.
+		if ( 'activiteit' === $query->get( 'post_type' ) && ! $query->get( 'orderby' ) ) {
+			$query->set(
+				'orderby',
+				array(
+					'menu_order' => 'ASC',
+					'title'      => 'ASC',
+				)
+			);
+		}
 		return;
 	}
 	if ( $query->is_post_type_archive( 'activiteit' ) || $query->is_tax( 'activiteit_type' ) ) {

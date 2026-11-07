@@ -31,5 +31,6 @@ const blueprint = (landingPage, title) => ({
 fs.writeFileSync(path.join(dir, 'blueprint-demo.json'), JSON.stringify(blueprint('/', 'Megacenter Rijssen – demo'), null, '\t') + '\n');
 fs.writeFileSync(path.join(dir, 'blueprint-demo-cms.json'), JSON.stringify(blueprint('/wp-admin/edit.php?post_type=activiteit', 'Megacenter Rijssen – demo (beheer)'), null, '\t') + '\n');
 const raw = (f) => `https://raw.githubusercontent.com/${repo}/${branch}/playground/${f}`;
-console.log('Site: https://playground.wordpress.net/?blueprint-url=' + raw('blueprint-demo.json'));
-console.log('CMS:  https://playground.wordpress.net/?blueprint-url=' + raw('blueprint-demo-cms.json'));
+// mode=seamless: alleen de site, zonder de werkbalk van Playground.
+console.log('Site: https://playground.wordpress.net/?mode=seamless&blueprint-url=' + raw('blueprint-demo.json'));
+console.log('CMS:  https://playground.wordpress.net/?mode=seamless&blueprint-url=' + raw('blueprint-demo-cms.json'));

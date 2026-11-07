@@ -13,13 +13,13 @@ zonder page builder, zonder premium plugins en zonder jQuery. Werktitel: *Megace
 
 | Wat | Link |
 |---|---|
-| **Website** | [Open de demo](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/basvolgers/megacenter-wordpress-demo/main/playground/blueprint-demo.json) |
-| **Beheer (CMS)**, direct bij de activiteiten | [Open het beheer](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/basvolgers/megacenter-wordpress-demo/main/playground/blueprint-demo-cms.json) |
+| **Website** | [Open de demo](https://playground.wordpress.net/?mode=seamless&blueprint-url=https://raw.githubusercontent.com/basvolgers/megacenter-wordpress-demo/main/playground/blueprint-demo.json) |
+| **Beheer (CMS)**, direct bij de activiteiten | [Open het beheer](https://playground.wordpress.net/?mode=seamless&blueprint-url=https://raw.githubusercontent.com/basvolgers/megacenter-wordpress-demo/main/playground/blueprint-demo-cms.json) |
 
 De demo draait helemaal in je eigen browser via [WordPress Playground](https://wordpress.org/playground/):
-niets installeren, geen account nodig. De eerste keer laden duurt 30–60 seconden. Je bent automatisch
-ingelogd als beheerder, dus je kunt alles aanpassen. Wijzigingen worden niet bewaard: opnieuw laden geeft
-weer een verse demo.
+niets installeren, geen account nodig. Het laden duurt ongeveer 20–30 seconden. Je bent automatisch
+ingelogd als beheerder, dus je kunt alles uitproberen. Wat je aanpast, blijft alleen in je eigen browser;
+de demo zelf verandert er niet door.
 
 ---
 
@@ -229,5 +229,6 @@ tracking-cookies, dus **een cookiebanner is niet nodig**.
 | `npm run mockup` | Presentatiebeeld `deliverables/mockup.png` |
 | `npm run zips` | Installeerbare zips van thema en plugin |
 | `npm run seed:reset` | Demo-inhoud resetten via de knop in het beheer |
+| `node tools/verify-live.mjs` | De live demolinks op playground.wordpress.net controleren (site + beheer) |
 
 Bronnen en licenties van alle beelden: zie [CREDITS.md](CREDITS.md).
