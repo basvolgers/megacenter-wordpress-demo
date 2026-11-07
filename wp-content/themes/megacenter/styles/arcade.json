@@ -1,0 +1,71 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "Arcade",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"slug": "base",
+					"name": "Diepblauw (achtergrond)",
+					"color": "#0A1A3F"
+				},
+				{
+					"slug": "surface",
+					"name": "Vlak",
+					"color": "#102552"
+				},
+				{
+					"slug": "surface-2",
+					"name": "Vlak 2",
+					"color": "#18306A"
+				},
+				{
+					"slug": "contrast",
+					"name": "Tekst",
+					"color": "#FFFFFF"
+				},
+				{
+					"slug": "muted",
+					"name": "Gedempt",
+					"color": "#B4C6F0"
+				},
+				{
+					"slug": "paper",
+					"name": "Roomgeel (licht vlak)",
+					"color": "#FFF4D6"
+				},
+				{
+					"slug": "paper-contrast",
+					"name": "Tekst op licht vlak",
+					"color": "#0A1A3F"
+				},
+				{
+					"slug": "accent-1",
+					"name": "Geel",
+					"color": "#FFE14D"
+				},
+				{
+					"slug": "accent-2",
+					"name": "Koraal",
+					"color": "#FF6B6B"
+				},
+				{
+					"slug": "accent-3",
+					"name": "Mint",
+					"color": "#4DFFC3"
+				},
+				{
+					"slug": "accent-4",
+					"name": "Lila",
+					"color": "#C3A2FF"
+				},
+				{
+					"slug": "on-accent",
+					"name": "Tekst op accent",
+					"color": "#0A1A3F"
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "megacenter/socials",
+	"version": "1.0.0",
+	"title": "Sociale media",
+	"category": "megacenter",
+	"icon": "share",
+	"description": "Iconen met de links uit de Megacenter-instellingen.",
+	"textdomain": "megacenter-core",
+	"attributes": {},
+	"supports": {
+		"html": false
+	},
+	"editorScript": "megacenter-core-editor",
+	"style": "megacenter-core-blocks",
+	"render": "file:./render.php"
+}

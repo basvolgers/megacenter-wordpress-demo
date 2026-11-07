@@ -1,0 +1,31 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "megacenter/activity-facts",
+	"version": "1.0.0",
+	"title": "Activiteit: kerngegevens",
+	"category": "megacenter",
+	"icon": "list-view",
+	"description": "Leeftijd, duur, groepsgrootte en prijs van de activiteit.",
+	"textdomain": "megacenter-core",
+	"attributes": {
+		"variant": {
+			"type": "string",
+			"default": "card",
+			"enum": [
+				"card",
+				"chips"
+			]
+		}
+	},
+	"usesContext": [
+		"postId",
+		"postType"
+	],
+	"supports": {
+		"html": false
+	},
+	"editorScript": "megacenter-core-editor",
+	"style": "megacenter-core-blocks",
+	"render": "file:./render.php"
+}

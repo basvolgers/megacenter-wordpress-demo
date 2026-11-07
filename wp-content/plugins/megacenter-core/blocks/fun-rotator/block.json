@@ -1,0 +1,41 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "megacenter/fun-rotator",
+	"version": "1.0.0",
+	"title": "FUN-kop met roterend woord",
+	"category": "megacenter",
+	"icon": "update",
+	"description": "Grote kop waarin de activiteiten om de beurt verschijnen. Nieuwe activiteiten komen er automatisch bij.",
+	"textdomain": "megacenter-core",
+	"attributes": {
+		"prefix": {
+			"type": "string",
+			"default": "FUN begint bij"
+		},
+		"words": {
+			"type": "string",
+			"default": ""
+		},
+		"level": {
+			"type": "number",
+			"default": 1
+		}
+	},
+	"supports": {
+		"html": false,
+		"align": [
+			"wide",
+			"full"
+		],
+		"typography": {
+			"fontSize": true
+		},
+		"spacing": {
+			"margin": true
+		}
+	},
+	"editorScript": "megacenter-core-editor",
+	"style": "megacenter-core-blocks",
+	"render": "file:./render.php"
+}

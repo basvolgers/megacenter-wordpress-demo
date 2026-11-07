@@ -1,0 +1,22 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "megacenter/activity-faq",
+	"version": "1.0.0",
+	"title": "Activiteit: veelgestelde vragen",
+	"category": "megacenter",
+	"icon": "editor-help",
+	"description": "Uitklapbare vragen uit de activiteit-gegevens.",
+	"textdomain": "megacenter-core",
+	"attributes": {},
+	"usesContext": [
+		"postId",
+		"postType"
+	],
+	"supports": {
+		"html": false
+	},
+	"editorScript": "megacenter-core-editor",
+	"style": "megacenter-core-blocks",
+	"render": "file:./render.php"
+}

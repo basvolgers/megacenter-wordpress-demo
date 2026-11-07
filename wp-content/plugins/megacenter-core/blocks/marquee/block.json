@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "megacenter/marquee",
+	"version": "1.0.0",
+	"title": "Lichtkrant met activiteiten",
+	"category": "megacenter",
+	"icon": "slides",
+	"description": "Bewegende band met alle activiteiten (of eigen woorden).",
+	"textdomain": "megacenter-core",
+	"attributes": {
+		"items": {
+			"type": "string",
+			"default": ""
+		}
+	},
+	"supports": {
+		"html": false,
+		"align": [
+			"full"
+		],
+		"color": {
+			"background": true,
+			"text": true
+		}
+	},
+	"editorScript": "megacenter-core-editor",
+	"style": "megacenter-core-blocks",
+	"render": "file:./render.php"
+}

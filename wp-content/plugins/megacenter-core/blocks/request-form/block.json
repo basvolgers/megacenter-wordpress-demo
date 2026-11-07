@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "megacenter/request-form",
+	"version": "1.0.0",
+	"title": "Aanvraagformulier",
+	"category": "megacenter",
+	"icon": "feedback",
+	"description": "Formulier voor kinderfeestjes, groepen, zakelijk of contact. Aanvragen komen binnen onder Aanvragen.",
+	"textdomain": "megacenter-core",
+	"attributes": {
+		"type": {
+			"type": "string",
+			"default": "contact",
+			"enum": [
+				"kinderfeest",
+				"groep",
+				"zakelijk",
+				"contact"
+			]
+		},
+		"submitLabel": {
+			"type": "string",
+			"default": ""
+		}
+	},
+	"supports": {
+		"html": false
+	},
+	"editorScript": "megacenter-core-editor",
+	"style": "megacenter-core-blocks",
+	"render": "file:./render.php"
+}

@@ -1,0 +1,40 @@
+{
+  "name": "megacenter-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pitch-demo WordPress-website (blokthema + plugin) voor een indoor entertainment megacenter. Draait lokaal via WordPress Playground CLI.",
+  "type": "module",
+  "scripts": {
+    "start": "wp-playground-cli server --port=9400 --wp=latest --php=8.3 --login --blueprint=./playground/blueprint-local.json --mount-dir-before-install ./wp-content /wordpress/wp-content",
+    "qa:editor": "node tools/editor-test.mjs",
+    "seed:reset": "node tools/seed-reset.mjs",
+    "build:css": "node tools/build-css.mjs",
+    "images": "node tools/images.mjs",
+    "screenshots": "node tools/screenshots.mjs",
+    "qa": "node tools/qa.mjs",
+    "lighthouse": "node tools/lighthouse.mjs",
+    "video": "node tools/video.mjs",
+    "mockup": "node tools/mockup.mjs",
+    "zips": "node tools/zips.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.14.0",
+    "@fontsource-variable/bricolage-grotesque": "^5.3.0",
+    "@fontsource-variable/manrope": "^5.3.0",
+    "@fontsource/bricolage-grotesque": "^5.3.0",
+    "@wp-playground/cli": "^3.1.62",
+    "archiver": "^8.0.0",
+    "ffmpeg-static": "^5.3.0",
+    "lighthouse": "^13.6.0",
+    "opentype.js": "^2.0.0",
+    "playwright": "^1.64.1",
+    "sharp": "^0.35.5"
+  },
+  "allowScripts": {
+    "ffmpeg-static@5.3.0": true,
+    "fs-ext-extra-prebuilt@2.2.17": true
+  }
+}

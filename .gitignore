@@ -1,0 +1,37 @@
+# Afhankelijkheden en caches
+node_modules/
+tools/.cache/
+
+# Door WordPress Playground aangemaakt (database, uploads, vertalingen): niet in git
+wp-content/database/
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/languages/
+wp-content/fonts/
+wp-content/mu-plugins/
+wp-content/index.php
+wp-content/debug.log
+wp-content/*.log
+
+# Opleverbestanden (screenshots, video's, zips, rapporten): opnieuw te maken met de npm-scripts
+deliverables/
+*.log
+*.webm
+*.mp4
+*.zip
+
+# Lokaal / editor
+.claude/settings.local.json
+.DS_Store
+Thumbs.db
+
+# Standaardthema's en -plugins die Playground meeinstalleert
+wp-content/themes/twenty*/
+wp-content/themes/index.php
+wp-content/plugins/akismet/
+wp-content/plugins/hello.php
+wp-content/plugins/index.php
+
+# Eigen beeld van de opdrachtgever: alleen lokaal, nooit publiceren
+tools/images.private.json
+wp-content/plugins/megacenter-core/demo-content/images-private/

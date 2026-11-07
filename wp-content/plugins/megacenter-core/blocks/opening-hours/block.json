@@ -1,0 +1,32 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "megacenter/opening-hours",
+	"version": "1.0.0",
+	"title": "Openingstijden",
+	"category": "megacenter",
+	"icon": "clock",
+	"description": "Openingstijden uit de Megacenter-instellingen.",
+	"textdomain": "megacenter-core",
+	"attributes": {
+		"variant": {
+			"type": "string",
+			"default": "table",
+			"enum": [
+				"table",
+				"compact",
+				"today"
+			]
+		},
+		"showNote": {
+			"type": "boolean",
+			"default": true
+		}
+	},
+	"supports": {
+		"html": false
+	},
+	"editorScript": "megacenter-core-editor",
+	"style": "megacenter-core-blocks",
+	"render": "file:./render.php"
+}

@@ -1,0 +1,546 @@
+[
+  {
+    "key": "hero-arcade",
+    "file": "hero-arcade.webp",
+    "width": 1100,
+    "height": 1375,
+    "alt": "Rij arcade-basketbalmachines in roze en blauw neonlicht",
+    "credit": "Midhun P / WordPress Photo Directory (CC0)",
+    "client": false,
+    "sizes": [
+      {
+        "width": 480,
+        "height": 600,
+        "file": "hero-arcade-480.webp",
+        "filesize": 38868
+      },
+      {
+        "width": 800,
+        "height": 1000,
+        "file": "hero-arcade-800.webp",
+        "filesize": 85266
+      }
+    ]
+  },
+  {
+    "key": "hero-vr",
+    "file": "hero-vr.webp",
+    "width": 640,
+    "height": 640,
+    "alt": "Lachende vrouw met een VR-bril op",
+    "credit": "Bruce Mars / StockSnap (CC0)",
+    "client": false,
+    "sizes": [
+      {
+        "width": 480,
+        "height": 480,
+        "file": "hero-vr-480.webp",
+        "filesize": 8494
+      }
+    ]
+  },
+  {
+    "key": "hero-sparklers",
+    "file": "hero-sparklers.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Twee handen met brandende sterretjes in het donker",
+    "credit": "Ian Schneider / StockSnap (CC0)",
+    "client": false,
+    "sizes": [
+      {
+        "width": 480,
+        "height": 320,
+        "file": "hero-sparklers-480.webp",
+        "filesize": 6712
+      },
+      {
+        "width": 800,
+        "height": 533,
+        "file": "hero-sparklers-800.webp",
+        "filesize": 12284
+      }
+    ]
+  },
+  {
+    "key": "lasergame",
+    "file": "lasergame.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Lichtstrepen in neonblauw, groen en paars tegen een donkere achtergrond",
+    "credit": "Bonnie Moreland / StockSnap (CC0)",
+    "client": false,
+    "sizes": [
+      {
+        "width": 480,
+        "height": 320,
+        "file": "lasergame-480.webp",
+        "filesize": 5800
+      },
+      {
+        "width": 800,
+        "height": 533,
+        "file": "lasergame-800.webp",
+        "filesize": 11306
+      }
+    ]
+  },
+  {
+    "key": "lasergame-2",
+    "file": "lasergame-2.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Kriskras lijnen van ijsblauw licht in een donkere ruimte",
+    "credit": "Vidsplay / StockSnap (CC0)",
+    "client": false,
+    "sizes": [
+      {
+        "width": 480,
+        "height": 320,
+        "file": "lasergame-2-480.webp",
+        "filesize": 18092
+      },
+      {
+        "width": 800,
+        "height": 533,
+        "file": "lasergame-2-800.webp",
+        "filesize": 31882
+      }
+    ]
+  },
+  {
+    "key": "lasergame-3",
+    "file": "lasergame-3.webp",
+    "width": 800,
+    "height": 1000,
+    "alt": "Speler in groen en paars neonlicht",
+    "credit": "Teddy Tavan / StockSnap (CC0)",
+    "client": false,
+    "sizes": [
+      {
+        "width": 480,
+        "height": 600,
+        "file": "lasergame-3-480.webp",
+        "filesize": 36270
+      }
+    ]
+  },
+  {
+    "key": "bowling",
+    "file": "bowling.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Bowlingbanen in blauw glow-licht met kegels aan het eind",
+    "credit": "Matthias Zomer / StockSnap (CC0)",
+    "client": false,
+    "sizes": [
+      {
+        "width": 480,
+        "height": 320,
+        "file": "bowling-480.webp",
+        "filesize": 16528
+      },
+      {
+        "width": 800,
+        "height": 533,
+        "file": "bowling-800.webp",
+        "filesize": 30438
+      }
+    ]
+  },
+  {
+    "key": "bowling-2",
+    "file": "bowling-2.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Sfeervolle bowlingbaan met rode verlichting en hanglampen",
+    "credit": "Ian Livesey / StockSnap (CC0)",
+    "client": false,
+    "sizes": [
+      {
+        "width": 480,
+        "height": 320,
+        "file": "bowling-2-480.webp",
+        "filesize": 18346
+      },
+      {
+        "width": 800,
+        "height": 533,
+        "file": "bowling-2-800.webp",
+        "filesize": 39558
+      }
+    ]
+  },
+  {
+    "key": "escaperoom",
+    "file": "escaperoom.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Stapel oude sleutels in warm licht",
+    "credit": "Leeroy / StockSnap (CC0)",
+    "client": false,
+    "sizes": [
+      {
+        "width": 480,
+        "height": 320,
+        "file": "escaperoom-480.webp",
+        "filesize": 30640
+      },
+      {
+        "width": 800,
+        "height": 533,
+        "file": "escaperoom-800.webp",
+        "filesize": 62034
+      }
+    ]
+  },
+  {
+    "key": "simracing",
+    "file": "simracing.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Kart in een bocht op een donker circuit",
+    "credit": "Alex Andrews / StockSnap (CC0)",
+    "client": false,
+    "sizes": [
+      {
+        "width": 480,
+        "height": 320,
+        "file": "simracing-480.webp",
+        "filesize": 7900
+      },
+      {
+        "width": 800,
+        "height": 533,
+        "file": "simracing-800.webp",
+        "filesize": 16752
+      }
+    ]
+  },
+  {
+    "key": "vr",
+    "file": "vr.webp",
+    "width": 800,
+    "height": 1000,
+    "alt": "Iemand met een VR-bril in oranjerood licht",
+    "credit": "Samuel Zeller / StockSnap (CC0)",
+    "client": false,
+    "sizes": [
+      {
+        "width": 480,
+        "height": 600,
+        "file": "vr-480.webp",
+        "filesize": 15872
+      }
+    ]
+  },
+  {
+    "key": "glowgolf",
+    "file": "glowgolf.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Blauwe golfbal vlak bij de hole op kunstgras",
+    "credit": "Aaron Burden / StockSnap (CC0)",
+    "client": false,
+    "sizes": [
+      {
+        "width": 480,
+        "height": 320,
+        "file": "glowgolf-480.webp",
+        "filesize": 11790
+      },
+      {
+        "width": 800,
+        "height": 533,
+        "file": "glowgolf-800.webp",
+        "filesize": 23264
+      }
+    ]
+  },
+  {
+    "key": "arcade",
+    "file": "arcade.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Arcade-joystick en knoppen in paars licht",
+    "credit": "George Becker / StockSnap (CC0)",
+    "client": false,
+    "sizes": [
+      {
+        "width": 480,
+        "height": 320,
+        "file": "arcade-480.webp",
+        "filesize": 6570
+      },
+      {
+        "width": 800,
+        "height": 533,
+        "file": "arcade-800.webp",
+        "filesize": 11658
+      }
+    ]
+  },
+  {
+    "key": "arcade-2",
+    "file": "arcade-2.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Verlichte grijpautomaat vol knuffels",
+    "credit": "Nilo Velez / WordPress Photo Directory (CC0)",
+    "client": false,
+    "sizes": [
+      {
+        "width": 480,
+        "height": 320,
+        "file": "arcade-2-480.webp",
+        "filesize": 28876
+      },
+      {
+        "width": 800,
+        "height": 533,
+        "file": "arcade-2-800.webp",
+        "filesize": 58290
+      }
+    ]
+  },
+  {
+    "key": "kidsjungle",
+    "file": "kidsjungle.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Ballenbak vol gekleurde ballen",
+    "credit": "Faisal Ahammad / WordPress Photo Directory (CC0)",
+    "client": false,
+    "sizes": [
+      {
+        "width": 480,
+        "height": 320,
+        "file": "kidsjungle-480.webp",
+        "filesize": 25896
+      },
+      {
+        "width": 800,
+        "height": 533,
+        "file": "kidsjungle-800.webp",
+        "filesize": 50206
+      }
+    ]
+  },
+  {
+    "key": "kinderfeest",
+    "file": "kinderfeest.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Verjaardagstaart met brandende kaarsjes en spikkels",
+    "credit": "Altered Reality / StockSnap (CC0)",
+    "client": false,
+    "sizes": [
+      {
+        "width": 480,
+        "height": 320,
+        "file": "kinderfeest-480.webp",
+        "filesize": 13688
+      },
+      {
+        "width": 800,
+        "height": 533,
+        "file": "kinderfeest-800.webp",
+        "filesize": 26048
+      }
+    ]
+  },
+  {
+    "key": "kinderfeest-2",
+    "file": "kinderfeest-2.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Kleurige ballonnen dicht op elkaar",
+    "credit": "Fernando Arcos / StockSnap (CC0)",
+    "client": false,
+    "sizes": [
+      {
+        "width": 480,
+        "height": 320,
+        "file": "kinderfeest-2-480.webp",
+        "filesize": 9212
+      },
+      {
+        "width": 800,
+        "height": 533,
+        "file": "kinderfeest-2-800.webp",
+        "filesize": 16250
+      }
+    ]
+  },
+  {
+    "key": "groepen",
+    "file": "groepen.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Vier vrienden die samen hard lachen",
+    "credit": "Helena Lopes / StockSnap (CC0)",
+    "client": false,
+    "sizes": [
+      {
+        "width": 480,
+        "height": 320,
+        "file": "groepen-480.webp",
+        "filesize": 10262
+      },
+      {
+        "width": 800,
+        "height": 533,
+        "file": "groepen-800.webp",
+        "filesize": 21852
+      }
+    ]
+  },
+  {
+    "key": "zakelijk",
+    "file": "zakelijk.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Collega's juichen en applaudisseren aan tafel",
+    "credit": "Direct Media / StockSnap (CC0)",
+    "client": false,
+    "sizes": [
+      {
+        "width": 480,
+        "height": 320,
+        "file": "zakelijk-480.webp",
+        "filesize": 13070
+      },
+      {
+        "width": 800,
+        "height": 533,
+        "file": "zakelijk-800.webp",
+        "filesize": 23544
+      }
+    ]
+  },
+  {
+    "key": "eten",
+    "file": "eten.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Burger met frietjes op een houten plank, met drankjes op de achtergrond",
+    "credit": "Dana Tentis / StockSnap (CC0)",
+    "client": false,
+    "sizes": [
+      {
+        "width": 480,
+        "height": 320,
+        "file": "eten-480.webp",
+        "filesize": 17824
+      },
+      {
+        "width": 800,
+        "height": 533,
+        "file": "eten-800.webp",
+        "filesize": 36480
+      }
+    ]
+  },
+  {
+    "key": "bar",
+    "file": "bar.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Mojito op de bar met rode lichtjes op de achtergrond",
+    "credit": "Dave Meier / StockSnap (CC0)",
+    "client": false,
+    "sizes": [
+      {
+        "width": 480,
+        "height": 320,
+        "file": "bar-480.webp",
+        "filesize": 21770
+      },
+      {
+        "width": 800,
+        "height": 533,
+        "file": "bar-800.webp",
+        "filesize": 42418
+      }
+    ]
+  },
+  {
+    "key": "pizza",
+    "file": "pizza.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Pizza voor een brandende houtoven",
+    "credit": "Eneida Nieves / StockSnap (CC0)",
+    "client": false,
+    "sizes": [
+      {
+        "width": 480,
+        "height": 320,
+        "file": "pizza-480.webp",
+        "filesize": 17478
+      },
+      {
+        "width": 800,
+        "height": 533,
+        "file": "pizza-800.webp",
+        "filesize": 35032
+      }
+    ]
+  },
+  {
+    "key": "vrijgezellen",
+    "file": "vrijgezellen.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Juichende menigte met de handen in de lucht",
+    "credit": "Ezra Jeffrey / StockSnap (CC0)",
+    "client": false,
+    "sizes": [
+      {
+        "width": 480,
+        "height": 320,
+        "file": "vrijgezellen-480.webp",
+        "filesize": 27030
+      },
+      {
+        "width": 800,
+        "height": 533,
+        "file": "vrijgezellen-800.webp",
+        "filesize": 47048
+      }
+    ]
+  },
+  {
+    "key": "hittesteen",
+    "file": "hittesteen.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Gesneden steak op een gietijzeren grillplaat met friet en brood op tafel",
+    "credit": "Nilo Velez / WordPress Photo Directory (CC0)",
+    "client": false,
+    "sizes": [
+      {
+        "width": 480,
+        "height": 360,
+        "file": "hittesteen-480.webp",
+        "filesize": 32654
+      },
+      {
+        "width": 800,
+        "height": 600,
+        "file": "hittesteen-800.webp",
+        "filesize": 64890
+      }
+    ]
+  },
+  {
+    "key": "og-default",
+    "file": "og-default.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Megacenter Rijssen – FUN begint hier",
+    "credit": "Eigen ontwerp (screenshot van de demo)",
+    "client": false,
+    "sizes": []
+  }
+]

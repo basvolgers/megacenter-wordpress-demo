@@ -1,0 +1,332 @@
+<?php
+/**
+ * Demo-activiteiten. Alle prijzen, tijden en teksten zijn voorbeelden voor de pitch.
+ *
+ * Velden: zie includes/meta.php. 'steps' = "Zo werkt het", 'gallery' = beeld-sleutels uit demo-content/images.
+ *
+ * @package MegacenterCore
+ */
+
+defined( 'ABSPATH' ) || exit;
+
+return array(
+	array(
+		'slug'       => 'lasergame',
+		'title'      => 'Lasergame',
+		'order'      => 1,
+		'image'      => 'lasergame',
+		'gallery'    => array( 'lasergame-3', 'lasergame-2' ),
+		'types'      => array( 'actie', 'competitie' ),
+		'excerpt'    => 'Lasergame in een neon arena vol licht, mist en schuilplekken. Vanaf 8 jaar, voor groepen van 6 tot 24 spelers.',
+		'meta'       => array(
+			'tagline'    => 'Sluip, scoor en win in de neon arena.',
+			'badge'      => 'Favoriet',
+			'age_min'    => 8,
+			'duration'   => 40,
+			'group_min'  => 6,
+			'group_max'  => 24,
+			'price_from' => 17.5,
+			'price_unit' => 'pp',
+			'accent'     => 'accent-2',
+			'highlights' => array( 'Neon arena met mist, licht en geluid', 'Persoonlijke score na elk potje', 'Spelvormen voor elk niveau', 'Lichte vesten, in vijf minuten uitgelegd', 'Ook als battle tussen twee groepen' ),
+			'faq'        => array(
+				array(
+					'q' => 'Is lasergame geschikt voor kinderen?',
+					'a' => 'Ja, vanaf 8 jaar. Er zijn geen harde knallen of pijnlijke treffers: je wordt "geraakt" door een lichtsignaal op je vest.',
+				),
+				array(
+					'q' => 'Wat trek ik het beste aan?',
+					'a' => 'Iets donkers en comfortabele schoenen. Dan val je minder op in de arena en kun je makkelijk bewegen.',
+				),
+				array(
+					'q' => 'Kunnen we tegen een andere groep spelen?',
+					'a' => 'Zeker. Bij grotere groepen en bedrijfsuitjes organiseren we een battle met eigen teams, een finale en een winnaar.',
+				),
+			),
+		),
+		'lead'       => 'Hartslag omhoog, lichten omlaag. In de neon arena speel je in teams tegen elkaar: sluipen, dekking zoeken en precies op het juiste moment toeslaan.',
+		'paragraphs' => array(
+			'Je krijgt een lichtgewicht vest en een laser, een korte uitleg en dan: game on. Na elk potje zie je op het scorebord wie de sluipschutter van de dag is. En wie vooral zijn eigen teamgenoten raakte.',
+			'Ideaal voor kinderfeestjes vanaf 8 jaar, vriendengroepen en als knallende start van een bedrijfsuitje. Combineer het met bowling of een burger in de bar en je avond is compleet.',
+		),
+		'steps'      => array(
+			array( 'Briefing & vesten aan', 'In vijf minuten weet je alles: regels, teams en tactiek.' ),
+			array( 'Twee potjes van 20 minuten', 'Wissel van spelvorm: Team Deathmatch, Capture the Flag of ieder voor zich.' ),
+			array( 'Scorebord & revanche', 'Bekijk de uitslag per speler. Nog een potje? Dat regelen we ter plekke.' ),
+		),
+	),
+	array(
+		'slug'       => 'bowling',
+		'title'      => 'Bowling',
+		'order'      => 2,
+		'image'      => 'bowling',
+		'gallery'    => array( 'bowling-2' ),
+		'types'      => array( 'samen-spelen', 'competitie', 'voor-kids' ),
+		'excerpt'    => 'Bowlen met blacklight, muziek en bumpers voor de kleinsten. Per baan tot 8 spelers, met eten en drinken aan de baan.',
+		'meta'       => array(
+			'tagline'    => 'Strike in het glow-licht.',
+			'badge'      => 'Glow-bowling',
+			'age_min'    => 4,
+			'duration'   => 60,
+			'group_min'  => 2,
+			'group_max'  => 8,
+			'price_from' => 32.5,
+			'price_unit' => 'baan',
+			'accent'     => 'accent-3',
+			'highlights' => array( 'Glow-bowling met blacklight', 'Bumpers voor kinderen', 'Automatische scoretelling', 'Eten en drinken aan de baan' ),
+			'faq'        => array(
+				array(
+					'q' => 'Vanaf welke leeftijd kun je bowlen?',
+					'a' => 'Vanaf 4 jaar. Met bumpers en een lichte bal gaat de bal altijd richting de kegels.',
+				),
+				array(
+					'q' => 'Hoeveel mensen kunnen er op één baan?',
+					'a' => 'Maximaal 8 spelers per baan. Met meer mensen reserveer je meerdere banen naast elkaar.',
+				),
+			),
+		),
+		'lead'       => 'Bowlen zoals het hoort: neon op de banen, muziek op de achtergrond en een drankje binnen handbereik. Bij glow-bowling gaan de lichten uit en de banen aan.',
+		'paragraphs' => array(),
+		'steps'      => array(
+			array( 'Schoenen & baan', 'Je krijgt bowlingschoenen en een eigen baan met scorescherm.' ),
+			array( 'Bowlen maar', 'Bumpers omhoog voor de kids, omlaag voor de fanatiekelingen.' ),
+			array( 'Bestellen aan de baan', 'Snacks en drankjes brengen we naar je toe.' ),
+		),
+	),
+	array(
+		'slug'       => 'escape-rooms',
+		'title'      => 'Escape rooms',
+		'order'      => 3,
+		'image'      => 'escaperoom',
+		'gallery'    => array(),
+		'types'      => array( 'samen-spelen', 'competitie' ),
+		'excerpt'    => 'Escape rooms in drie moeilijkheidsgraden, plus een battle-variant waarin teams tegelijk in identieke kamers spelen.',
+		'meta'       => array(
+			'tagline'    => 'Ontsnap binnen 60 minuten. Of speel de battle.',
+			'badge'      => 'Battle-modus',
+			'age_min'    => 12,
+			'duration'   => 60,
+			'group_min'  => 2,
+			'group_max'  => 28,
+			'price_from' => 27.5,
+			'price_unit' => 'pp',
+			'accent'     => 'accent-4',
+			'highlights' => array( 'Kamers voor beginners én die-hards', 'Battle-variant: teams tegen elkaar', 'Hints van de spelleider als je vastloopt', 'Tot 28 spelers tegelijk' ),
+			'faq'        => array(
+				array(
+					'q' => 'Moeten we ervaring hebben?',
+					'a' => 'Nee. De spelleider houdt jullie in de gaten en geeft een hint als je vastloopt.',
+				),
+				array(
+					'q' => 'Hoe werkt de battle?',
+					'a' => 'Jullie groep wordt verdeeld over identieke kamers die tegelijk starten. Dezelfde puzzels, dezelfde tijd: het snelste team wint.',
+				),
+			),
+		),
+		'lead'       => 'Eén uur, één deur en een kamer vol raadsels. Werk samen, kraak de codes en ontsnap voordat de klok op nul staat.',
+		'paragraphs' => array( 'Met een grote groep? Kies de battle: meerdere identieke kamers, tegelijk van start. Welk team staat als eerste buiten?' ),
+		'steps'      => array(
+			array( 'Intro & spelregels', 'De spelleider vertelt het verhaal en sluit de deur.' ),
+			array( '60 minuten puzzelen', 'Zoeken, combineren, kraken. Hint nodig? Roep maar.' ),
+			array( 'Uitslag & teamfoto', 'Gehaald of net niet: de foto is altijd raak.' ),
+		),
+	),
+	array(
+		'slug'       => 'sim-racing',
+		'title'      => 'Sim Racing',
+		'order'      => 4,
+		'image'      => 'simracing',
+		'gallery'    => array(),
+		'types'      => array( 'competitie', 'actie' ),
+		'excerpt'    => 'Race tegen elkaar in professionele racesimulatoren met force feedback. Van eerste rondje tot Grand Prix met podium.',
+		'meta'       => array(
+			'tagline'    => 'Echte bochten, echte adrenaline.',
+			'badge'      => 'Nieuw',
+			'age_min'    => 12,
+			'duration'   => 45,
+			'group_min'  => 1,
+			'group_max'  => 8,
+			'price_from' => 19.5,
+			'price_unit' => 'pp',
+			'accent'     => 'accent-1',
+			'highlights' => array( 'Professionele simulatoren met force feedback', 'Multiplayer: race tegen je eigen groep', 'Live leaderboard op een groot scherm', 'Instructeur stelt de wagen op jouw niveau af', 'Als Grand Prix voor groepen tot 24 personen' ),
+			'faq'        => array(
+				array(
+					'q' => 'Moet ik ervaring hebben met racen?',
+					'a' => 'Nee. De instructeur stelt de simulator af op jouw niveau, met hulp bij sturen en remmen als je dat wilt.',
+				),
+				array(
+					'q' => 'Word je er misselijk van?',
+					'a' => 'De meeste mensen niet. Merk je toch iets, dan helpt even pauzeren meteen. Eet vooraf liever iets lichts.',
+				),
+				array(
+					'q' => 'Is er een minimale lengte?',
+					'a' => 'Je moet goed bij de pedalen kunnen: vanaf ongeveer 1,40 meter. Daarom raden we sim racing aan vanaf 12 jaar.',
+				),
+			),
+		),
+		'lead'       => 'Gordels vast. In onze racesimulatoren voel je elke bocht, elke curb en elke inhaalactie. Je zit laag in een kuipstoel, met een stuur dat terugvecht en pedalen die precies doen wat je voet zegt.',
+		'paragraphs' => array(
+			'Race tegen de klok of tegen elkaar: alle simulatoren zijn gekoppeld, dus je ziet je vrienden of collega\'s naast je op de baan. Op het grote scherm volgt de rest van de groep alles live.',
+			'Nog nooit gesimraced? Geen probleem. Een instructeur stelt de wagen af op jouw niveau. Fanatiek? Zet alle hulpsystemen uit en jaag op de snelste rondetijd van de week.',
+		),
+		'steps'      => array(
+			array( 'Afstellen & proefronde', 'Stoel, stuur en rijhulp op jouw niveau. Even wennen aan de baan.' ),
+			array( 'Kwalificatie', 'Eén snelle ronde bepaalt je startplek.' ),
+			array( 'Race & podium', 'Start, inhalen, finish. De snelste drie staan op het podium.' ),
+		),
+	),
+	array(
+		'slug'       => 'vr-arena',
+		'title'      => 'VR Arena',
+		'order'      => 5,
+		'image'      => 'vr',
+		'gallery'    => array(),
+		'types'      => array( 'actie', 'samen-spelen' ),
+		'excerpt'    => 'Free-roam virtual reality: met je team door een virtuele wereld, zonder kabels. Ruimteschip, zombiestad of piratenschip.',
+		'meta'       => array(
+			'tagline'    => 'Loop vrij rond in een andere wereld.',
+			'badge'      => 'Free-roam',
+			'age_min'    => 10,
+			'duration'   => 30,
+			'group_min'  => 2,
+			'group_max'  => 8,
+			'price_from' => 24.5,
+			'price_unit' => 'pp',
+			'accent'     => 'accent-3',
+			'highlights' => array( 'Free-roam: geen kabels, geen stilstaan', 'Tot 8 spelers in één wereld', 'Avonturen voor elk niveau', 'Hygiënisch masker per speler' ),
+			'faq'        => array(
+				array(
+					'q' => 'Kan ik VR spelen met een bril?',
+					'a' => 'Ja, de meeste brillen passen gewoon onder de VR-headset.',
+				),
+				array(
+					'q' => 'Vanaf welke leeftijd kan het?',
+					'a' => 'Vanaf 10 jaar. Jongere kinderen hebben vaak moeite met de headset en de intensiteit van de beleving.',
+				),
+			),
+		),
+		'lead'       => 'Zet de bril op en de hal verdwijnt. In de VR Arena loop je vrij rond, zonder kabels, en zie je je teamgenoten als avatar naast je staan.',
+		'paragraphs' => array(),
+		'steps'      => array(
+			array( 'Bril op & kalibreren', 'We stellen de headset in en je oefent de bediening.' ),
+			array( 'Missie van 30 minuten', 'Samen door een wereld vol puzzels, actie of horror (als je durft).' ),
+			array( 'Score & replay', 'Bekijk wie het beste team was en de mooiste momenten.' ),
+		),
+	),
+	array(
+		'slug'       => 'glowgolf',
+		'title'      => 'Glowgolf',
+		'order'      => 6,
+		'image'      => 'glowgolf',
+		'gallery'    => array(),
+		'types'      => array( 'samen-spelen', 'voor-kids' ),
+		'excerpt'    => 'Indoor midgetgolf in blacklight: 18 holes vol neon, effecten en verrassingen. Voor jong en oud.',
+		'meta'       => array(
+			'tagline'    => 'Midgetgolf in blacklight. 18 holes vol neon.',
+			'badge'      => 'Blacklight',
+			'age_min'    => 4,
+			'duration'   => 45,
+			'group_min'  => 1,
+			'group_max'  => 6,
+			'price_from' => 11.5,
+			'price_unit' => 'pp',
+			'accent'     => 'accent-1',
+			'highlights' => array( '18 holes in blacklight', 'Geschikt voor alle leeftijden', 'Geen wachttijd: speel in je eigen tempo', 'Perfect te combineren met eten' ),
+			'faq'        => array(
+				array(
+					'q' => 'Hoe lang duurt een rondje?',
+					'a' => 'Gemiddeld 45 minuten, maar je speelt in je eigen tempo.',
+				),
+				array(
+					'q' => 'Is het geschikt voor kleine kinderen?',
+					'a' => 'Zeker, vanaf 4 jaar. Voor de kleinsten hebben we kortere clubs.',
+				),
+			),
+		),
+		'lead'       => 'Midgetgolf, maar dan in het donker. Onder blacklight lichten de banen, de ballen en jouw witte sokken op. Achttien holes vol bochten, tunnels en verrassingen.',
+		'paragraphs' => array(),
+		'steps'      => array(
+			array( 'Club & bal pakken', 'Kies je kleur bal en je bent klaar om te spelen.' ),
+			array( '18 holes in je eigen tempo', 'Van makkelijk naar "hoe dan?!".' ),
+			array( 'Scorekaart inleveren', 'Hole-in-one gescoord? Dan verdien je een plekje op het bord.' ),
+		),
+	),
+	array(
+		'slug'       => 'arcade-games',
+		'title'      => 'Arcade & Games',
+		'order'      => 7,
+		'image'      => 'arcade',
+		'gallery'    => array( 'arcade-2' ),
+		'types'      => array( 'samen-spelen', 'voor-kids', 'competitie' ),
+		'excerpt'    => 'Arcadekasten, airhockey, basketbal en grijpautomaten. Laad je speelpas op en speel zo lang je wilt.',
+		'meta'       => array(
+			'tagline'    => 'Knoppen, lampjes, highscores.',
+			'badge'      => '',
+			'age_min'    => 0,
+			'duration'   => 0,
+			'group_min'  => 0,
+			'group_max'  => 0,
+			'price_from' => 10,
+			'price_unit' => 'tegoed',
+			'accent'     => 'accent-4',
+			'highlights' => array( 'Klassiekers én nieuwe games', 'Airhockey en basketbal', 'Speelpas: geen losse munten nodig', 'Spaar tickets voor prijzen' ),
+			'faq'        => array(
+				array(
+					'q' => 'Moet ik reserveren voor de arcade?',
+					'a' => 'Nee, de arcade is vrij toegankelijk tijdens de openingstijden. Kom gewoon langs.',
+				),
+				array(
+					'q' => 'Hoe werkt de speelpas?',
+					'a' => 'Je laadt tegoed op je pas bij de bar of balie en betaalt per spel. Ongebruikt tegoed blijft op je pas staan.',
+				),
+			),
+		),
+		'lead'       => 'Van retro tot nieuw: in de arcadehal staan klassiekers, racegames, airhockey en basketbalautomaten. Laad je speelpas op en ga je highscore achterna.',
+		'paragraphs' => array(),
+		'steps'      => array(
+			array( 'Speelpas opladen', 'Bij de bar of balie, met pin of contant.' ),
+			array( 'Spelen zo lang je wilt', 'Geen tijdslot, geen reservering nodig.' ),
+			array( 'Tickets inwisselen', 'Spaar tickets en kies een prijs uit de vitrine.' ),
+		),
+	),
+	array(
+		'slug'       => 'kids-jungle',
+		'title'      => 'Kids Jungle',
+		'order'      => 8,
+		'image'      => 'kidsjungle',
+		'gallery'    => array(),
+		'types'      => array( 'voor-kids' ),
+		'excerpt'    => 'Indoor speelparadijs voor kinderen van 1 tot en met 8 jaar, met een aparte peuterhoek. Ouders zitten ernaast met koffie.',
+		'meta'       => array(
+			'tagline'    => 'Klimmen, glijden en ravotten voor de kleinsten.',
+			'badge'      => 'Vanaf 1 jaar',
+			'age_min'    => 1,
+			'age_max'    => 8,
+			'duration'   => 0,
+			'group_min'  => 0,
+			'group_max'  => 0,
+			'price_from' => 8.5,
+			'price_unit' => 'kind',
+			'accent'     => 'accent-2',
+			'highlights' => array( 'Aparte peuterhoek tot 3 jaar', 'Zicht vanaf de zitplekken voor ouders', 'Ranja en snacks aan de bar', 'Ideaal voor kinderfeestjes' ),
+			'faq'        => array(
+				array(
+					'q' => 'Moet een ouder erbij blijven?',
+					'a' => 'Ja, kinderen spelen onder toezicht van een ouder of begeleider.',
+				),
+				array(
+					'q' => 'Zijn sokken verplicht?',
+					'a' => 'Ja, voor de hygiëne en de veiligheid. Vergeten? Bij de balie zijn antislipsokken te koop.',
+				),
+			),
+		),
+		'lead'       => 'Klimtoren, glijbanen, ballenbak en een aparte peuterhoek: in de Kids Jungle kunnen de kleinsten zich helemaal uitleven. Jij zit ernaast met een koffie en houdt alles in het zicht.',
+		'paragraphs' => array(),
+		'steps'      => array(
+			array( 'Sokken aan, schoenen uit', 'Jassen en schoenen in de kluisjes bij de ingang.' ),
+			array( 'Spelen zo lang ze willen', 'Geen tijdslot: blijven tot de batterij leeg is.' ),
+			array( 'Pauze met ranja', 'Even bijtanken aan tafel, dan weer los.' ),
+		),
+	),
+);

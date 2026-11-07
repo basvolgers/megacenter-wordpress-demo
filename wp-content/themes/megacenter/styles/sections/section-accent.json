@@ -1,0 +1,49 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "Accentvlak (limoen)",
+	"slug": "section-accent",
+	"blockTypes": [
+		"core/group",
+		"core/columns",
+		"core/column"
+	],
+	"styles": {
+		"color": {
+			"background": "var:preset|color|accent-1",
+			"text": "var:preset|color|on-accent"
+		},
+		"elements": {
+			"link": {
+				"color": {
+					"text": "var:preset|color|on-accent"
+				},
+				":hover": {
+					"color": {
+						"text": "var:preset|color|on-accent"
+					}
+				}
+			},
+			"heading": {
+				"color": {
+					"text": "var:preset|color|on-accent"
+				}
+			},
+			"button": {
+				"color": {
+					"background": "var:preset|color|on-accent",
+					"text": "var:preset|color|accent-1"
+				},
+				"border": {
+					"color": "var:preset|color|on-accent"
+				},
+				":hover": {
+					"color": {
+						"background": "var:preset|color|contrast",
+						"text": "var:preset|color|on-accent"
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,117 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "Huisstijl opdrachtgever (sjabloon)",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"slug": "base",
+					"name": "Achtergrond (huisstijl)",
+					"color": "#0E0C20"
+				},
+				{
+					"slug": "surface",
+					"name": "Vlak (huisstijl)",
+					"color": "#181532"
+				},
+				{
+					"slug": "surface-2",
+					"name": "Vlak 2 (huisstijl)",
+					"color": "#252049"
+				},
+				{
+					"slug": "contrast",
+					"name": "Tekst (huisstijl)",
+					"color": "#F7F4FF"
+				},
+				{
+					"slug": "muted",
+					"name": "Gedempte tekst (huisstijl)",
+					"color": "#B9B4DA"
+				},
+				{
+					"slug": "paper",
+					"name": "Licht vlak (huisstijl)",
+					"color": "#F5F0E6"
+				},
+				{
+					"slug": "paper-contrast",
+					"name": "Tekst op licht vlak (huisstijl)",
+					"color": "#0E0C20"
+				},
+				{
+					"slug": "accent-1",
+					"name": "Accent 1 (huisstijl)",
+					"color": "#C8FF2E"
+				},
+				{
+					"slug": "accent-2",
+					"name": "Accent 2 (huisstijl)",
+					"color": "#FF3EA5"
+				},
+				{
+					"slug": "accent-3",
+					"name": "Accent 3 (huisstijl)",
+					"color": "#3EE8FF"
+				},
+				{
+					"slug": "accent-4",
+					"name": "Accent 4 (huisstijl)",
+					"color": "#FF9A1F"
+				},
+				{
+					"slug": "on-accent",
+					"name": "Tekst op accent (huisstijl)",
+					"color": "#0E0C20"
+				}
+			]
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"slug": "display",
+					"name": "Koppen (huisstijl)",
+					"fontFamily": "\"Bricolage Grotesque\", \"Arial Narrow\", system-ui, sans-serif",
+					"fontFace": [
+						{
+							"fontFamily": "Bricolage Grotesque",
+							"fontStyle": "normal",
+							"fontWeight": "200 800",
+							"fontStretch": "75% 100%",
+							"fontDisplay": "swap",
+							"src": [
+								"file:./assets/fonts/bricolage-grotesque-latin-wdth.woff2"
+							]
+						}
+					]
+				},
+				{
+					"slug": "body",
+					"name": "Tekst (huisstijl)",
+					"fontFamily": "Manrope, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+					"fontFace": [
+						{
+							"fontFamily": "Manrope",
+							"fontStyle": "normal",
+							"fontWeight": "200 800",
+							"fontDisplay": "swap",
+							"src": [
+								"file:./assets/fonts/manrope-latin-wght.woff2"
+							]
+						}
+					]
+				}
+			]
+		}
+	},
+	"styles": {
+		"elements": {
+			"button": {
+				"border": {
+					"radius": "999px"
+				}
+			}
+		}
+	}
+}

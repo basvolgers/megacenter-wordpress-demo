@@ -1,0 +1,52 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "Licht vlak",
+	"slug": "section-paper",
+	"blockTypes": [
+		"core/group",
+		"core/columns",
+		"core/column"
+	],
+	"styles": {
+		"color": {
+			"background": "var:preset|color|paper",
+			"text": "var:preset|color|paper-contrast"
+		},
+		"elements": {
+			"link": {
+				"color": {
+					"text": "var:preset|color|paper-contrast"
+				},
+				":hover": {
+					"color": {
+						"text": "var:preset|color|paper-contrast"
+					}
+				}
+			},
+			"heading": {
+				"color": {
+					"text": "var:preset|color|paper-contrast"
+				}
+			},
+			"button": {
+				"color": {
+					"background": "var:preset|color|paper-contrast",
+					"text": "var:preset|color|paper"
+				},
+				"border": {
+					"color": "var:preset|color|paper-contrast"
+				},
+				":hover": {
+					"color": {
+						"background": "var:preset|color|accent-2",
+						"text": "var:preset|color|on-accent"
+					},
+					"border": {
+						"color": "var:preset|color|accent-2"
+					}
+				}
+			}
+		}
+	}
+}

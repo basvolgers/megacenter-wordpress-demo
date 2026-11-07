@@ -1,0 +1,121 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "Daglicht",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"slug": "base",
+					"name": "Achtergrond",
+					"color": "#F7F3EC"
+				},
+				{
+					"slug": "surface",
+					"name": "Vlak",
+					"color": "#FFFFFF"
+				},
+				{
+					"slug": "surface-2",
+					"name": "Vlak 2",
+					"color": "#EEE7DB"
+				},
+				{
+					"slug": "contrast",
+					"name": "Tekst",
+					"color": "#14112B"
+				},
+				{
+					"slug": "muted",
+					"name": "Gedempt",
+					"color": "#55506E"
+				},
+				{
+					"slug": "paper",
+					"name": "Contrastvlak (donker)",
+					"color": "#14112B"
+				},
+				{
+					"slug": "paper-contrast",
+					"name": "Tekst op contrastvlak",
+					"color": "#F7F3EC"
+				},
+				{
+					"slug": "accent-1",
+					"name": "Violet",
+					"color": "#5B2EFF"
+				},
+				{
+					"slug": "accent-2",
+					"name": "Framboos",
+					"color": "#C8105F"
+				},
+				{
+					"slug": "accent-3",
+					"name": "Petrol",
+					"color": "#006E7A"
+				},
+				{
+					"slug": "accent-4",
+					"name": "Oranje",
+					"color": "#B34400"
+				},
+				{
+					"slug": "on-accent",
+					"name": "Tekst op accent",
+					"color": "#FFFFFF"
+				}
+			],
+			"duotone": [
+				{
+					"slug": "nacht-magenta",
+					"name": "Inkt en framboos",
+					"colors": [
+						"#14112B",
+						"#FFB3D6"
+					]
+				},
+				{
+					"slug": "nacht-limoen",
+					"name": "Inkt en violet",
+					"colors": [
+						"#14112B",
+						"#C9B8FF"
+					]
+				},
+				{
+					"slug": "nacht-ijsblauw",
+					"name": "Inkt en petrol",
+					"colors": [
+						"#14112B",
+						"#9FE6EE"
+					]
+				},
+				{
+					"slug": "nacht-zon",
+					"name": "Inkt en oranje",
+					"colors": [
+						"#14112B",
+						"#FFC79E"
+					]
+				}
+			]
+		}
+	},
+	"styles": {
+		"elements": {
+			"link": {
+				":hover": {
+					"color": {
+						"text": "var:preset|color|accent-1"
+					}
+				}
+			},
+			"button": {
+				"border": {
+					"color": "var:preset|color|accent-1"
+				}
+			}
+		}
+	}
+}
